@@ -1,0 +1,11 @@
+name: 04 - Events
+
+on: 
+  event:
+
+jobs:
+  event:
+    runs-on: ubuntu-24.04
+    steps:
+      - name: 'Ejecución de evento'
+        run: echo "se hizo un evento"
